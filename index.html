@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="Marian Times">
+		<meta name="author" content="Kodinger">
+		<meta name="keyword" content="marian,times,Marian Times">
+		<!-- Shareable -->
+		<meta property="og:title" content="Marian Times" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="" />
+		<title>Home | Marian Times</title>
+		<link href="images/favicon.png" rel="icon">
+		<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+		<!-- IonIcons -->
+		<link rel="stylesheet" href="lib/ionicons/css/ionicons.min.css">
+		<!-- Toast -->
+		<link rel="stylesheet" href="lib/toast/jquery.toast.min.css">
+		<!-- OwlCarousel -->
+		<link rel="stylesheet" href="lib/owlcarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="lib/owlcarousel/dist/assets/owl.theme.default.min.css">
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="lib/magnific-popup/dist/magnific-popup.css">
+		<link rel="stylesheet" href="lib/sweetalert/dist/sweetalert.css">
+		<!-- Custom style -->
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body class="skin-orange">
+		<header class="primary">
+			<div class="row social">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-md-6 text-left">
+		                    <div class="text-left dtlabel"><span ng-bind="date|date:'EEEE, MMMM dd yyyy h:mm a':'Asia/Kolkata'" class="ng-binding">Wednesday, September 12 2018 10:19 AM</span> IST</div>
+		                </div>
+		                <div class="col-md-3  paddingtop2 ">
+		                	<div class="floatright">
+			                    <a class="fa fa-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/kavalgopuram/"></a>
+			                    <a class="fa fa-youtube" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCP-IGrPLRXF2WaLsBT4U2jQ"></a>
+			                    <a class="fa fa-envelope" title="Contact Us" href="/news/contact_us"></a>
+			                    <a class="fa fa-twitter" title="" target="_blank" href="https://twitter.com"></a>
+			                    <a class="fa fa-google-plus" title="" target="_blank" href=" https://plus.google.com"></a>
+		                    </div>
+		                </div>
+		                <div class="col-md-3 col-sm-12 floatright paddingtop2" id="small-search">
+							<form class="search" autocomplete="off">
+								<div class="form-group no-margin">
+									<div class="input-group">
+										<input type="text" name="q" class="form-control text-input" placeholder="Search here">									
+										<div class="input-group-btn">
+											<button class="btn btn-primary"><i class="ion-search"></i></button>
+										</div>
+									</div>
+								</div>
+							</form>								
+						</div>
+		            </div>
+		        </div>
+		    </div>
+			<div class="firstbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-12 marginleft30">
+							<div class="brand">
+								<a href="index.html">
+									<img src="images/logo.png" alt="Magz Logo">
+								</a>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Start nav -->
+			<nav class="menu">
+				<div class="container">
+					<div class="brand">
+						<a href="#">
+							<img src="images/logo.png" alt="Magz Logo">
+						</a>
+					</div>
+					<div class="mobile-toggle">
+						<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
+					</div>
+					<div class="mobile-toggle">
+						<a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
+					</div>
+					<div id="menu-list">
+						<ul class="nav-list">
+							<li><a href="category.html">Editorial</a></li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">News<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Vatican News</a></li>
+									<li><a href="category.html">Indian News</a></li>
+									<li><a href="single.html">Global News</a></li>
+									<li><a href="page.html">News From Kerala</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Catholic Life<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Devotions</a></li>
+									<li><a href="category.html">Family</a></li>
+									<li><a href="single.html">Saints</a></li>
+									<li><a href="page.html">Prayers</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Features<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Features Stories</a></li>
+									<li><a href="category.html">Inspirational Stories</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Glories Of mary<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Marian Apparitions</a></li>
+									<li><a href="category.html">Marian Basilicans</a></li>
+									<li><a href="category.html">Marian Devotions</a></li>
+									<li><a href="category.html">Marian Experiences</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Reflections<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Columns</a></li>
+									<li><a href="category.html">Articles</a></li>
+									<li><a href="category.html">Spiritual Thoughts</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Sacred Art<i class="ion-ios-arrow-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Arts</a></li>
+									<li><a href="category.html">Cinema</a></li>
+									<li><a href="category.html">Music</a></li>
+								</ul>
+							</li>
+							<li><a href="category.html">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End nav -->
+		</header>
+
+		<section class="home">
+			<div class="container">
+				<div class="row">
+					<!-- left section -->
+					<div class="col-md-8 col-sm-12 col-xs-12">
+						<!-- section latest news sliders -->
+						<section>
+							<div class="owl-carousel owl-theme slide" id="featured">
+								<div class="item">
+									<article class="featured">
+										<div class="overlay"></div>
+										<figure>
+											<img src="images/news/img04.jpg" alt="Sample Article">
+										</figure>
+										<div class="details">
+											<div class="category"><a href="category.html">Computer</a></div>
+											<h1><a href="single.html">Phasellus iaculis quam sed est elementum vel ornare ligula venenatis</a></h1>
+											<div class="time">December 26, 2016</div>
+										</div>
+									</article>
+								</div>
+								<div class="item">
+									<article class="featured">
+										<div class="overlay"></div>
+										<figure>
+											<img src="images/news/img14.jpg" alt="Sample Article">
+										</figure>
+										<div class="details">
+											<div class="category"><a href="category.html">Travel</a></div>
+											<h1><a href="single.html">Class aptent taciti sociosqu ad litora torquent per conubia nostra</a></h1>
+											<div class="time">December 10, 2016</div>
+										</div>
+									</article>
+								</div>
+								<div class="item">
+									<article class="featured">
+										<div class="overlay"></div>
+										<figure>
+											<img src="images/news/img13.jpg" alt="Sample Article">
+										</figure>
+										<div class="details">
+											<div class="category"><a href="category.html">International</a></div>
+											<h1><a href="single.html">Maecenas accumsan tortor ut velit pharetra mollis</a></h1>
+											<div class="time">October 12, 2016</div>
+										</div>
+									</article>
+								</div>
+								<div class="item">
+									<article class="featured">
+										<div class="overlay"></div>
+										<figure>
+											<img src="images/news/img05.jpg" alt="Sample Article">
+										</figure>
+										<div class="details">
+											<div class="category"><a href="category.html">Lifestyle</a></div>
+											<h1><a href="single.html">Mauris elementum libero at pharetra auctor Fusce ullamcorper elit</a></h1>
+											<div class="time">November 27, 2016</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+						<!-- end of section latest news sliders -->
+						<!-- section News category  -->
+						<section>
+							<div class="line">
+								<div> News</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="row">
+										<article class="article col-md-12 ">
+											<div class="inner ">
+												<figure>                                
+													<a href="single.html">
+														<img src="images/news/img05.jpg" alt="Sample Article">
+													</a>
+												</figure>
+												<div class="padding">
+													<div class="detail">
+														<div class="time">December 09, 2016</div>
+														<div class="category"><a href="category.html">Vatican news</a></div>
+													</div>
+													<h3><a href="single.html">Mauris elementum libero at pharetra auctor</a></h3>
+													<p>Vivamus in efficitur mi. Nullam semper justo ut elit lacinia lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="row">
+										<article class="article col-md-12">
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Vatikan news</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Indian news</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">global news</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">news from kerala</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Lifestyle</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+										</article>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- end of section News category  -->
+						<section class="ad-banner">
+							<div>
+								<img src="images/banners/ads1.jpg" class="img-responsive">
+							</div>
+						</section>
+						<!-- section catholic life category  -->
+						<section>
+							<div class="line">
+								<div>Catholic Life</div>
+							</div>
+							<div class="row">
+								<article class="col-md-12 article-list">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img03.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="details">
+											<div class="detail">
+												<div class="category">
+												<a href="#">prayers</a>
+												</div>
+												<div class="time">December 16, 2016</div>
+											</div>
+											<h2><a href="single.html">Nulla facilisis odio quis gravida vestibulum Proin venenatis pellentesque arcu</a></h2>
+											<p>
+												Nulla facilisis odio quis gravida vestibulum. Proin venenatis pellentesque arcu, ut mattis nulla placerat et.
+											</p>
+										</div>
+									</div>
+								</article>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">family</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">saints</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">saints</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">saints</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+						<!-- end of section catholic life category  -->
+						<section class="ad-banner">
+							<div>
+								<img src="images/banners/ads2.jpg" class="img-responsive">
+							</div>
+						</section>
+						<!-- section features category  -->
+						<section>
+							<div class="line top">
+								<div>Features</div>
+							</div>
+							<div class="row">
+								<article class="article col-md-6">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img07.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<div class="detail">
+												<div class="time">December 21, 2016</div>
+												<div class="category"><a href="category.html">Features stories</a></div>
+											</div>
+											<h3><a href="single.html">Sed do eiusmod tempor incididunt ut labore</a></h3>
+											<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris elementum libero at pharetra auctor.</p>
+										</div>
+									</div>
+								</article>
+								<article class="article col-md-6">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img07.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<div class="detail">
+												<div class="time">December 21, 2016</div>
+												<div class="category"><a href="category.html">Inspirational stories</a></div>
+											</div>
+											<h3><a href="single.html">Sed do eiusmod tempor incididunt ut labore</a></h3>
+											<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris elementum libero at pharetra auctor.</p>
+										</div>
+									</div>
+								</article>
+							</div>
+						</section>
+						<!--end of section features category  -->
+						<section class="ad-banner">
+							<div>
+								<img src="images/banners/ads3.jpg" class="img-responsive">
+							</div>
+						</section>
+						<!-- section Reflections category  -->
+						<section>
+							<div class="line">
+								<div> Reflections</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="row">
+										<article class="article col-md-12 ">
+											<div class="inner ">
+												<figure>                                
+													<a href="single.html">
+														<img src="images/news/img05.jpg" alt="Sample Article">
+													</a>
+												</figure>
+												<div class="padding">
+													<div class="detail">
+														<div class="time">December 09, 2016</div>
+														<div class="category"><a href="category.html">Columns</a></div>
+													</div>
+													<h3><a href="single.html">Mauris elementum libero at pharetra auctor</a></h3>
+													<p>Vivamus in efficitur mi. Nullam semper justo ut elit lacinia lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="row">
+										<article class="article col-md-12">
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Articles</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Spiritual Thoughts</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">columns</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">articles</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="article-mini">
+												<div class="inner">
+													<figure>
+														<a href="single.html">
+															<img src="images/news/img05.jpg" alt="Sample Article">
+														</a>
+													</figure>
+													<div class="padding">
+														<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+														<div class="detail">
+															<div class="category"><a href="category.html">Spiritual Thoughts</a></div>
+															<div class="time">December 22, 2016</div>
+														</div>
+													</div>
+												</div>
+											</article>
+										</article>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- end of section Reflections category  -->
+						<section class="ad-banner">
+							<div>
+								<img src="images/banners/ads4.jpg" class="img-responsive">
+							</div>
+						</section>
+						<!-- section Sacred art category  -->
+						<section>
+							<div class="line">
+								<div>Sacred Art</div>
+							</div>
+							<div class="row">
+								<article class="col-md-12 article-list">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img03.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="details">
+											<div class="detail">
+												<div class="category">
+												<a href="#">cinema</a>
+												</div>
+												<div class="time">December 16, 2016</div>
+											</div>
+											<h2><a href="single.html">Nulla facilisis odio quis gravida vestibulum Proin venenatis pellentesque arcu</a></h2>
+											<p>
+												Nulla facilisis odio quis gravida vestibulum. Proin venenatis pellentesque arcu, ut mattis nulla placerat et.
+											</p>
+										</div>
+									</div>
+								</article>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Arts</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Music</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Music</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-md-6 ">
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Music</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+						<!-- end of section Sacred art category  -->
+					</div>
+					<!-- end of left section -->
+					<!-- right section -->
+					<div class="col-xs-6 col-md-4 sidebar" id="sidebar">
+						<div class="sidebar-title for-tablet">Sidebar</div>
+						<aside>
+							<div class="aside-body gom">
+								<article class="article col-md-12 no-padding">
+									<div class="inner ">
+										
+										<div class="padding gom">
+											<h1>Glory Of mary</h1>
+											<h3><a href="single.html">Mauris elementum libero at pharetra auctor</a></h3>
+											<figure>                                
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<p>Vivamus in efficitur mi. Nullam semper justo ut elit lacinia lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+											<div class="detail">
+												<div class="time">December 09, 2016</div>
+												<div class="category"><a href="category.html">Marian Apparitions</a></div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</aside>
+						<aside>
+							<h1 class="aside-title">Editorial<a href="#" class="all">See All <i class="ion-ios-arrow-right"></i></a></h1>
+							<div class="aside-body">
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img07.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h4><a href="single.html">Fusce ullamcorper elit at felis cursus suscipit</a></h4>
+											<div class="time">December 22, 2016</div>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img06.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h4><a href="single.html">neque est semper nulla, ac elementum risus quam a enim</a></h4>
+											<div class="time">December 22, 2016</div>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img06.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h4><a href="single.html">neque est semper nulla, ac elementum risus quam a enim</a></h4>
+											<div class="time">December 22, 2016</div>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img06.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h4><a href="single.html">neque est semper nulla, ac elementum risus quam a enim</a></h4>
+											<div class="time">December 22, 2016</div>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img03.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h4><a href="single.html">Morbi vitae nisl ac mi luctus aliquet a vitae libero</a></h4>
+											<div class="time">December 22, 2016</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</aside>
+						<aside id="sponsored">
+							<h1 class="aside-title">Sponsored</h1>
+							<div class="aside-body">
+								<ul class="sponsored">
+									<li>
+										<a href="#">
+											<img src="images/banners/ad1.jpg" alt="Sponsored">
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</aside>
+						<aside>
+							<ul class="nav nav-tabs nav-justified" role="tablist">
+								<li class="active">
+									<a href="#popular" aria-controls="popular" role="tab" data-toggle="tab">
+										<i class="ion-android-star-outline"></i> Popular Articles
+									</a>
+								</li>
+								<li>
+									<a href="#recent" aria-controls="recent" role="tab" data-toggle="tab">
+										<i class="ion-ios-chatboxes-outline"></i> Recent Articles
+									</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="popular">
+									<article class="article-fw">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img16.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="details">
+												<div class="detail">
+													<div class="time">December 31, 2016</div>
+													<div class="category"><a href="category.html">Sport</a></div>
+												</div>
+												<h3><a href="single.html">Donec congue turpis vitae mauris</a></h3>
+												<p>
+													Donec congue turpis vitae mauris condimentum luctus. Ut dictum neque at egestas convallis. 
+												</p>
+											</div>
+										</div>
+									</article>
+									<div class="line"></div>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img05.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Lifestyle</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img02.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Fusce ullamcorper elit at felis cursus suscipit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Travel</a></div>
+													<div class="time">December 21, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img10.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Healthy</a></div>
+													<div class="time">December 20, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="tab-pane " id="recent">
+									<article class="article-fw">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img15.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="details">
+												<div class="detail">
+													<div class="time">December 31, 2016</div>
+													<div class="category"><a href="category.html">Sport</a></div>
+												</div>
+												<h3><a href="single.html">Donec congue turpis vitae mauris</a></h3>
+												<p>
+													Donec congue turpis vitae mauris condimentum luctus. Ut dictum neque at egestas convallis. 
+												</p>
+											</div>
+										</div>
+									</article>
+									<div class="line"></div>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img02.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Lifestyle</a></div>
+													<div class="time">December 22, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img03.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Fusce ullamcorper elit at felis cursus suscipit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Travel</a></div>
+													<div class="time">December 21, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-mini">
+										<div class="inner">
+											<figure>
+												<a href="single.html">
+													<img src="images/news/img10.jpg" alt="Sample Article">
+												</a>
+											</figure>
+											<div class="padding">
+												<h4><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate velit</a></h4>
+												<div class="detail">
+													<div class="category"><a href="category.html">Healthy</a></div>
+													<div class="time">December 20, 2016</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</aside>
+						<aside id="sponsored">
+							<h1 class="aside-title">Sponsored</h1>
+							<div class="aside-body">
+								<ul class="sponsored">
+									<li>
+										<a href="#">
+											<img src="images/banners/ad2.jpg" alt="Sponsored">
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</aside>
+						<aside>
+							<div class="aside-body">
+								<form class="newsletter">
+									<div class="icon">
+										<i class="ion-ios-email-outline"></i>
+										<h1>Newsletter</h1>
+									</div>
+									<div class="input-group">
+										<input type="email" class="form-control email" placeholder="Your mail">
+										<div class="input-group-btn">
+											<button class="btn btn-primary"><i class="ion-paper-airplane"></i></button>
+										</div>
+									</div>
+									<p>By subscribing you will receive new articles in your email.</p>
+								</form>
+							</div>
+						</aside>
+						<aside id="sponsored">
+							<h1 class="aside-title">Sponsored</h1>
+							<div class="aside-body">
+								<ul class="sponsored">
+									<li>
+										<a href="#">
+											<img src="images/banners/ad3.jpg" alt="Sponsored">
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</aside>
+					</div>
+					<!-- end of right section -->
+				</div>
+			</div>
+		</section>
+
+		<section class="video-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="line">
+							<div>Videos</div>
+						</div>
+						<div class="owl-carousel owl-theme carousel-1 margin-minus25" id="video-slider">
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="inner">
+									<a href="#">
+										<figure>
+											<div class="play"><i class="ion-play"></i></div>
+										</figure>	 
+										<div class="desc text-center">
+										  <h2 class="title loading ">Video title</h2>  
+										</div>
+									</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</section>
+
+		<!-- Start footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">About Us</h1>
+							<div class="block-body">
+								<figure class="foot-logo">
+									<img src="images/logo-light.png" class="img-responsive" alt="Logo">
+								</figure>
+								<p class="brand-description">
+									Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris elementum libero at pharetra auctor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Categories</h1>
+							<div class="block-body">
+								<ul class="tags">
+									<li><a href="#">News</a></li>
+									<li><a href="#">Editorial</a></li>
+									<li><a href="#">Catholic Life</a></li>
+									<li><a href="#">Features</a></li>
+									<li><a href="#">Glory Of mary</a></li>
+									<li><a href="#">Reflections</a></li>
+									<li><a href="#">Sacred Art</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Follow Us</h1>
+							<div class="block-body">
+								<div class="sharing">
+									<ul class="social">
+										<li>
+										<a href="#" class="facebook">
+											<i class="ion-social-facebook"></i> Facebook
+										</a>
+										</li>
+										<li>
+											<a href="#" class="twitter">
+												<i class="ion-social-twitter"></i> Twitter
+											</a>
+										</li>
+										<li>
+											<a href="#" class="googleplus">
+												<i class="ion-social-googleplus"></i> Google+
+											</a>
+										</li>
+										<li>
+											<a href="#" class="youtube">
+												<i class="ion-social-youtube"></i> Youtube
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Newsletter</h1>
+							<div class="block-body">
+								<p>By subscribing you will receive new articles in your email.</p>
+								<form class="newsletter">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="ion-ios-email-outline"></i>
+										</div>
+										<input type="email" class="form-control email" placeholder="Your mail">
+									</div>
+									<button class="btn btn-primary btn-block white">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							COPYRIGHT &copy; <a href="">Marian Times</a> 2018. ALL RIGHT RESERVED.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!-- JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.migrate.js"></script>
+		<script src="lib/bootstrap/bootstrap.min.js"></script>
+		<script src="lib/jquery-number/jquery.number.min.js"></script>
+		<script src="lib/owlcarousel/dist/owl.carousel.min.js"></script>
+		<script src="lib/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="lib/easescroll/jquery.easeScroll.js"></script>
+		<script src="lib/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="lib/toast/jquery.toast.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script type="text/javascript">
+			   $('#featured').owlCarousel({
+			   	  loop:true,
+			      autoplay: true,
+			      nav:true,
+			      items:1,
+			      navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+			  })
+			   $('#video-slider').owlCarousel({
+			      nav:true,
+			      navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+			  })
+		</script>
+	</body>
+</html>
